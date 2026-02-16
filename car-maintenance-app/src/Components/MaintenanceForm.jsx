@@ -1,4 +1,4 @@
-import { maintenanceTypes } from '../interfaces/maintenance.interface';
+import { maintenanceTypes } from '../Interfaces/maintenance.interface';
 
 function MaintenanceForm({ 
   inputValues, 
