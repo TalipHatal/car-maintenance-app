@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
-import StatsCards from '../components/StatsCards';
-import MaintenanceForm from '../components/MaintenanceForm';
-import FilterButtons from '../components/FilterButtons';
-import MaintenanceList from '../components/MaintenanceList';
+import StatsCards from '../Components/StatsCards';
+import MaintenanceForm from '../Components/MaintenanceForm';
+import FilterButtons from '../Components/FilterButtons';
+import MaintenanceList from '../Components/MaintenanceList';
 
 function CarMaintenance() {
   const [maintenances, setMaintenances] = useState(() => {
